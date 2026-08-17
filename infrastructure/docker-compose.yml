@@ -1,0 +1,16 @@
+services:
+
+  postgres:
+    image: postgres:17
+    container_name: bidsphere-postgres
+    environment:
+      POSTGRES_DB: bidsphere
+      POSTGRES_USER: bidsphere
+      POSTGRES_PASSWORD: bidsphere
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
