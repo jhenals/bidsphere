@@ -1,0 +1,7 @@
+The following files have been resolved:
+   org.springframework.boot:spring-boot-starter-data-jpa:jar:4.1.0:compile -- module spring.boot.starter.data.jpa [auto]
+   org.springframework.boot:spring-boot-starter-flyway:jar:4.1.0:compile -- module spring.boot.starter.flyway [auto]
+   org.springframework.boot:spring-boot-starter-validation:jar:4.1.0:compile -- module spring.boot.starter.validation [auto]
+   org.springframework.boot:spring-boot-starter-webmvc:jar:4.1.0:compile -- module spring.boot.starter.webmvc [auto]
+   org.flywaydb:flyway-database-postgresql:jar:12.4.0:compile -- module flyway.database.postgresql (auto)
+
